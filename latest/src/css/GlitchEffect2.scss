@@ -1,0 +1,52 @@
+@import './Animation.scss';
+
+.glitch-overlay{
+    position: relative;
+
+    &::before, &::after{
+        mix-blend-mode: screen;
+        content: attr(data-content);
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &::before{
+        display: none; // bu yok idi
+        // left: -5%; // bu var idi
+        color: var(--primary);
+        clip: rect(0, 1350px, 140px, 0);
+        animation-name: glitchRed;
+        animation-duration: 0s; // 25 idi
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    &::after{
+        display: none; // bu yok idi
+        // left: 5%; // bu var idi
+        color: #0000FF;
+        color: rgb(4, 87, 126);
+        clip: rect(0, 1350px, 50px, 0);
+        animation-name: glitchBlue;
+        animation-duration: 0s; // 25 idi
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 30s;
+    }
+
+    span{
+        position: relative;
+        z-index: 1;
+        color: var(--white);
+        clip: rect(0, 900px, 722px, 56px);
+        animation-name: glitchGreen;
+        animation-duration: 0s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+}
+
