@@ -66,11 +66,7 @@ const Navbar = () => {
                         >
                         Story</ScrollLink>
                     </li>
-                    <li>
-                    <a href="https://kilopi.net/mom/files/Whitepaper_Kilopi_MastersOfManagement.pdf" className="nav-links" target="_blank" rel="noopener noreferrer">
-                    Whitepaper
-                </a>
-                    </li>
+                   
                     <li>
                         <ScrollLink 
                             to="features" 
@@ -120,7 +116,7 @@ const Navbar = () => {
                             D.A.O</ScrollLink>
                     </li>
                     <li>
-                    <a href="https://kilopi.net/mom/documentation/index.html" className="nav-links" target="_blank" rel="noopener noreferrer">
+                    <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/masters-of-management" className="nav-links" target="_blank" rel="noopener noreferrer">
                     Docs
                 </a>
                     </li>

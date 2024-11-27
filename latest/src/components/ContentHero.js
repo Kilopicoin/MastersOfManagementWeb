@@ -36,7 +36,7 @@ const ContentHero = () => {
                 <div style={containerStyle}>
                 <h4 className="hero-content__title-2">A community driven strategy game that is being built via blockchain and web3 technologies where players can manage their realms in millions of possibilities</h4>
                 </div>
-                <a href="https://kilopi.net/mom/betax/index.html" target="_blank" rel="noopener noreferrer">
+                <a href="https://kilopi.net/mom/full/" target="_blank" rel="noopener noreferrer">
                     <Button {...button_info} />
                 </a>
             </div>
